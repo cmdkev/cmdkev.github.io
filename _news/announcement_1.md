@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-04-26 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I was selected for the [NSF Graduate Research Fellowship](https://cs.uchicago.edu/news/phd-student-kevin-bryson-receives-nsf-graduate-research-fellowship-to-create-equitable-algorithmic-data-tools/)! :confetti_ball:
