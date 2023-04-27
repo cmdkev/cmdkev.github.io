@@ -6,7 +6,7 @@ title: Kevin Bryson # the website title (if blank, full name will be used instea
 first_name: Kevin
 middle_name: 
 last_name: Bryson
-email: kbryson@uchicago.edu
+email: # kbryson@uchicago.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 keywords: # jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
@@ -101,7 +101,6 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -176,10 +175,10 @@ news:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: false
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -297,7 +296,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 4  # leave blank to always show all authors
-more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+more_authors_animation_delay: 0.1  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
 # -----------------------------------------------------------------------------

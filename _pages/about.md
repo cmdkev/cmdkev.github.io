@@ -9,7 +9,8 @@ profile:
   image: kevin.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>kbryson AT uchicago DOT edu</p>
+    <p>email:</p>
+    <p>kbryson AT uchicago.edu
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
