@@ -850,3 +850,9 @@ progress::-moz-progress-bar {
     opacity: 1;
   }
 }
+
+
+/* Highlight my name */
+.my-name {
+  color: var(--global-theme-color)
+}

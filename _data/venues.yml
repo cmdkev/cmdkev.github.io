@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
+"AIES":
+  url: https://www.aies-conference.com/2024/
+"ConPro":
+  url: https://conpro24.ieee-security.org/
+"E S&P":
+  url: https://www.ieee-security.org/TC/EuroSP2024/
+"CHI":
+  url: https://dl.acm.org/conference/chi
 "NAACL":
   url: http://naacl.org/
