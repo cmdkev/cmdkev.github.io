@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #F29105;
-  --global-hover-color: #F29105;
+  --global-theme-color: rgb(242, 145, 5);
+  --global-hover-color: rgb(242, 145, 5);
   --global-footer-bg-color: rgb(31, 16, 36);
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -39,8 +39,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #F29105;
-  --global-hover-color: #F29105;
+  --global-theme-color: rgb(242, 145, 5);
+  --global-hover-color: rgb(242, 145, 5);
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
   --global-footer-link-color: #000000;
@@ -769,6 +769,11 @@ progress::-moz-progress-bar {
 .code-display-wrapper:active .copy, .code-display-wrapper:focus .copy, .code-display-wrapper:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
+}
+
+/* Highlight my name */
+.my-name {
+  color: var(--global-theme-color);
 }
 
 /*******************************************************************************
