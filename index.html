@@ -101,12 +101,6 @@
         </div>
       </nav>
 
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
     </header>
 
 
@@ -148,22 +142,14 @@
           </div>
 
           <div class="clearfix">
-            <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+            <p>I graduated from Morehouse College in 2021. I’m currently a PhD student at the University of Chicago in <a href="https://super.cs.uchicago.edu/" rel="external nofollow noopener" target="_blank">SUPERgroup</a> working with <a href="https://www.blaseur.com/" rel="external nofollow noopener" target="_blank">Blase Ur</a>.</p>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-<p>I graduated from Morehouse College in 2021. I’m currently a PhD student at the University of Chicago in <a href="https://super.cs.uchicago.edu/" rel="external nofollow noopener" target="_blank">SUPERgroup</a> working with <a href="https://www.blaseur.com/" rel="external nofollow noopener" target="_blank">Blase Ur</a>.</p>
-
-<p>I am building interfaces that help illuminate fairness‑related decisions throughout the data science process and creating data‑processing techniques that operationalize theories of justice by incorporating knowledge of systemic inequalities.</p>
-
-<p>Technology has historically found many new ways to oppress, harm and exploit marginalized peoples and my goals are to focus on supporting and developing outcomes that result in tangible benefits for those who are most negatively affected by the current trajectory of technology, governmental policies and society.</p>
+<p>I am building interfaces that help illuminate fairness‑related decisions throughout the data science process and exploring new  (and old) data processing techniques that operationalize theories of justice by critically engaging with the impacts of systemic inequalities on data.</p>
 
 <h4 id="other-things-im-interested-in">Other things I’m interested in:</h4>
 <ul>
-  <li>algorithmic audits as a means of implementing accountability</li>
-  <li>protecting privacy rights in a surveillance economy</li>
-  <li>photography</li>
+  <li>evaluating privacy and transparency affordances online</li>
+  <li>film photography</li>
   <li>baking</li>
 </ul>
 
@@ -175,6 +161,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
               
+                <tr>
+                  <th scope="row">Apr 25, 2024</th>
+                  <td>
+                    🏅 Our paper, <strong>JupyterLab in Retrograde</strong> won a best paper award at CHI! (We won’t be going, because of the <a href="https://www.chiinhawaii.info/" rel="external nofollow noopener" target="_blank">climate impact of the conference</a>.)
+
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">Apr 26, 2023</th>
                   <td>
@@ -200,21 +193,21 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge"><a href="http://naacl.org/" rel="external nofollow noopener" target="_blank">NAACL</a></abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://dl.acm.org/conference/chi" rel="external nofollow noopener" target="_blank">CHI</a></abbr></div>
 
         <!-- Entry bib key -->
-        <div id="sullivan-etal-2022-explaining" class="col-sm-8">
+        <div id="harrison2024jupyterlab" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Explaining Why: How Instructions and User Interfaces Impact Annotator Rationales When Labeling Text Data</div>
+        <div class="title">JupyterLab in Retrograde: Contextual Notifications That Highlight Fairness and Bias Issues for Data Scientists</div>
         <!-- Author -->
         <div class="author">
         
 
-        Jamar Sullivan Jr., Will Brackenbury, Andrew McNutt, <em>Kevin Bryson</em>, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
+        Galen Harrison, <em class="my-name"><b>Kevin Bryson</b></em>, Ahmad Emmanuel Bamba, Luca Dovichi, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Kwam Byll, Yuxin Chen, Michael Littman, Chenhao Tan, Blase Ur' : '5 more authors';
+                var more_authors_text = element.text() == '3 more authors' ? 'Aleksander Herrmann Binion, Arthur Borem, Blase Ur' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -222,14 +215,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                     clearInterval(textAdder);
                   }
               }, '0.1');
-              ">5 more authors</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</em>, Jul 2022
+          <em>In Proceedings of the CHI Conference on Human Factors in Computing Systems</em>, 2024
         </div>
         <div class="periodical">
           
@@ -238,16 +231,17 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/chi24-retrograde.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.18653/v1/2022.naacl-main.38"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2022.naacl-main.38" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>In the context of data labeling, NLP researchers are increasingly interested in having humans select rationales, a subset of input tokens relevant to the chosen label. We conducted a 332-participant online user study to understand how humans select rationales, especially how different instructions and user interface affordances impact the rationales chosen. Participants labeled ten movie reviews as positive or negative, selecting words and phrases supporting their label as rationales. We varied the instructions given, the rationale-selection task, and the user interface. Participants often selected about 12 % of input tokens as rationales, but selected fewer if unable to drag over multiple tokens at once. Whereas participants were near unanimous in their data labels, they were far less consistent in their rationales. The user interface affordances and task greatly impacted the types of rationales chosen. We also observed large variance across participants.</p>
+            <p>Current algorithmic fairness tools focus on auditing completed models, neglecting the potential downstream impacts of iterative decisions about cleaning data and training machine learning models. In response, we developed Retrograde, a JupyterLab environment extension for Python that generates real-time, contextual notifications for data scientists about decisions they are making regarding protected classes, proxy variables, missing data, and demographic differences in model performance. Our novel framework uses automated code analysis to trace data provenance in JupyterLab, enabling these notifications. In a between-subjects online experiment, 51 data scientists constructed loan-decision models with Retrograde providing notifications continuously throughout the process, only at the end, or never. Retrograde’s notifications successfully nudged participants to account for missing data, avoid using protected classes as predictors, minimize demographic differences in model performance, and exhibit healthy skepticism about their models.</p>
           </div>
         </div>
       </div>
@@ -272,8 +266,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             </div>
         </article>
 
-        <a href="/assets/hmda_profile.html"/>
-
 </div>
 
     </div>
@@ -281,7 +273,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Kevin  Bryson. Last updated: September 18, 2023.
+        © Copyright 2024 Kevin  Bryson. Last updated: April 29, 2024.
       </div>
     </footer>
 
@@ -321,83 +313,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
     
     
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
 
   </body>
 </html>
