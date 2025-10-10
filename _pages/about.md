@@ -18,11 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I graduated from Morehouse College in 2021. I'm currently a PhD student at the University of Chicago in [SUPERgroup](https://super.cs.uchicago.edu/) working with [Blase Ur](https://www.blaseur.com/).
+Kevin graduated from Morehouse College in 2021 and is currently a PhD student at the University of Chicago supported by the NSF Graduate Research Fellowship in [SUPERgroup](https://super.cs.uchicago.edu/) working with [Blase Ur](https://www.blaseur.com/).
+His research explores a broad range of **usability** and **fairness** problems **data scientists** encounter when developing complex and **algorithmic systems** and that **users** face when (trying to) manage and interact with them.
 
-I am building interfaces that help illuminate fairness‑related decisions throughout the data science process and exploring new  (and old) data processing techniques that operationalize theories of justice by critically engaging with the impacts of systemic inequalities on data.
+*I'm graduating in the **summer of 2026** and am interested in fairness, data journalism, and privacy engineering roles.*
 
 #### Other things I'm interested in:
-- evaluating privacy and transparency affordances online
 - film photography
 - baking
+- [dj'ing](https://www.youtube.com/@Kev-In-Progress)
+- biking and hiking
