@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: resume/cv
 nav: true
 nav_order: 4
-cv_pdf: KevinBrysonCVOct2025.pdf
+cv_pdf: KevinBrysonResumeFeb2026.pdf
 ---
