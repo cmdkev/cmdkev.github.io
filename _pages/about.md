@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>email:</p>
-    <p>kevinabryson AT gmail.com
+    <p>k DOT bryson AT northeastern.edu
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -25,7 +25,7 @@ Most recently, I've been investigating how and why people use search on TikTok a
 
 
 #### Other things I'm interested in:
-- film photography
+- [film photography](https://www.instagram.com/kev.bryson/)
 - baking
 - [dj'ing](https://www.youtube.com/@Kev-In-Progress)
 - biking and hiking
