@@ -25,7 +25,8 @@ Most recently, I've been investigating how and why people use search on TikTok a
 
 
 #### Other things I'm interested in:
-- [film photography](https://www.instagram.com/kev.bryson/)
 - baking
-- [dj'ing](https://www.youtube.com/@Kev-In-Progress)
 - biking and hiking
+- playing magic: the gathering
+- [film photography](https://www.instagram.com/kev.bryson/)
+- [dj'ing](https://www.youtube.com/@Kev-In-Progress)

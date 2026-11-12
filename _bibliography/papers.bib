@@ -1,5 +1,20 @@
 ---
 ---
+@article{bryson2026how,
+  title = {“How Much Do You Want to Play God in Controlling the Dataset?”: Data Scientists' Perspectives on Modifying Data to Address Fairness Concerns},
+  volume = {9},
+  url = {https://ojs.aaai.org/index.php/AIES/article/view/43159},
+  doi = {10.1609/aies.v9i1.43159},
+  journal = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  author = {Bryson, Kevin and Harrison, Galen and Jennings, Margaret and Kale, Alex and Ur, Blase},
+  year = {2026},
+  abstract={Machine-learning (ML) models are often trained on data that embed discrimination and biases. We wondered under what circumstances data-science practitioners would want to modify a model's underlying training data directly, instead of attempting to fix a model learned from biased data. We also wondered what tools and practices they would need to do so. To answer these questions, we conducted scenario-based interviews with 20 practitioners about using data modification methods (DMMs)—pre-processing methods that directly change a model's underlying training data—to address fairness issues. Participants acknowledged pressing fairness issues in the scenario we presented, but were reluctant to violate what they perceived as data science and ML norms by modifying training data. Participants frequently felt that their role (both in the scenario and in their own work contexts) meant that they had little responsibility or agency over the ethical outcomes of their models. Our findings suggest that norms within data science and ML practice can act as a barrier to fairness processes. This work calls for the fairness community to reevaluate the community norms and values that create these barriers and to reconsider the range of valid fairness interventions.},
+  selected = true,
+  month = {Oct.},
+  pdf = {bryson-aies26-datamod.pdf},
+  pages = {512-526},
+  abbr = {AIES}
+},
 @inproceedings{bryson2025characterizing,
   author = { Bryson, Kevin and Borem, Arthur and Moh, Phoebe and Akgul, Omer and Edelson, Laura and Lauinger, Tobias and Mazurek, Michelle L. and McCoy, Damon and Ur, Blase },
   booktitle = { 2025 IEEE Symposium on Security and Privacy (SP) },
@@ -17,72 +32,72 @@
   month = May,
   pdf = {kb-ats-sp25.pdf},
   abstract = {Online targeted ads are those shown only to certain users based on interests, demographics, or behaviors. Because targeted ads raise many privacy concerns, many platforms provide ad transparency systems (ATSs) to inform users about this practice. To better understand what current ATSs are communicating to users—and how—we first taxonomized the design and content of 22 of the most popular English-language websites' ATSs as presented to users in the United States. We found substantial differences across ATSs in both the prevalence of transparency-enhancing features (e.g., whether they show users what has been inferred about them) and the presentation of information (e.g., the terminology used, where settings are located). Across all platforms, however, we observed consistent ambiguity about what data is used to target ads and the actual impact of altering settings. To gauge how these different design choices impact users, we conducted an online user study in which 198 participants used their own account to explore the ATS of one of eight representative platforms. We found that many of the questions participants hoped the ATS would answer remained unanswered after exploring the ATS. More broadly, participants found current ATSs simultaneously complex and lacking key details. We pinpoint ATS design decisions that best support users.},
-  abbr={S&P}
+  abbr = {S&P}
 },
 @inproceedings{harrison2024jupyterlab,
-  title={JupyterLab in Retrograde: Contextual Notifications That Highlight Fairness and Bias Issues for Data Scientists},
-  author={Harrison, Galen and Bryson, Kevin and Bamba, Ahmad Emmanuel and Dovichi, Luca and Binion, Aleksander Herrmann and Borem, Arthur and Ur, Blase},
-  year={2024},
-  abbr={CHI},
-  selected=true,
-  award={Best paper is awarded to 40 papers at CHI this year},
-  award_name={🏅 Best Paper},
-  pdf={chi24-retrograde.pdf},
-  publisher = "Proceedings of the CHI Conference on Human Factors in Computing Systems",
-  booktitle={Proceedings of the CHI Conference on Human Factors in Computing Systems},
-  abstract={Current algorithmic fairness tools focus on auditing completed models, neglecting the potential downstream impacts of iterative decisions about cleaning data and training machine learning models. In response, we developed Retrograde, a JupyterLab environment extension for Python that generates real-time, contextual notifications for data scientists about decisions they are making regarding protected classes, proxy variables, missing data, and demographic differences in model performance. Our novel framework uses automated code analysis to trace data provenance in JupyterLab, enabling these notifications. In a between-subjects online experiment, 51 data scientists constructed loan-decision models with Retrograde providing notifications continuously throughout the process, only at the end, or never. Retrograde's notifications successfully nudged participants to account for missing data, avoid using protected classes as predictors, minimize demographic differences in model performance, and exhibit healthy skepticism about their models.}
+  title = {JupyterLab in Retrograde: Contextual Notifications That Highlight Fairness and Bias Issues for Data Scientists},
+  author = {Harrison, Galen and Bryson, Kevin and Bamba, Ahmad Emmanuel and Dovichi, Luca and Binion, Aleksander Herrmann and Borem, Arthur and Ur, Blase},
+  year = {2024},
+  abbr = {CHI},
+  selected = true,
+  award = {Best paper is awarded to 40 papers at CHI this year},
+  award_name = {🏅 Best Paper},
+  pdf = {chi24-retrograde.pdf},
+  publisher = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+  booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+  abstract = {Current algorithmic fairness tools focus on auditing completed models, neglecting the potential downstream impacts of iterative decisions about cleaning data and training machine learning models. In response, we developed Retrograde, a JupyterLab environment extension for Python that generates real-time, contextual notifications for data scientists about decisions they are making regarding protected classes, proxy variables, missing data, and demographic differences in model performance. Our novel framework uses automated code analysis to trace data provenance in JupyterLab, enabling these notifications. In a between-subjects online experiment, 51 data scientists constructed loan-decision models with Retrograde providing notifications continuously throughout the process, only at the end, or never. Retrograde's notifications successfully nudged participants to account for missing data, avoid using protected classes as predictors, minimize demographic differences in model performance, and exhibit healthy skepticism about their models.}
 },
 @inproceedings{heCanAllowlist2024,
-  author          = {He, Weijia and Bryson, Kevin and Calderon, Ricardo and Prakash, Vijay and Feamster, Nick and Yuxing Huang, Danny and Ur, Blase},
-  booktitle       = {Euro S&P},
-  title           = {Can Allowlists Capture the Variability of Home IoT Device Network Behavior?},
-  year            = {2024},
-  abbr= {E S&P}
+  author = {He, Weijia and Bryson, Kevin and Calderon, Ricardo and Prakash, Vijay and Feamster, Nick and Yuxing Huang, Danny and Ur, Blase},
+  booktitle = {Euro S&P},
+  title = {Can Allowlists Capture the Variability of Home IoT Device Network Behavior?},
+  year = {2024},
+  abbr = {E S&P}
 }
 @inproceedings{10.1145/3600211.3604756,
-author = {Bryson, Kevin},
-title = {Designing Interfaces to Elicit Data Issues for Data Workers},
-year = {2023},
-isbn = {9798400702310},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3600211.3604756},
-doi = {10.1145/3600211.3604756},
-abstract = {Goals of objectivity and neutrality drive the usage of algorithmic systems, however most efforts have produced similar or more harm than their human counterparts. Post-hoc analyses of these flawed systems often reveal systemic issues underlying the data and flawed assumptions in preparation stages that affect the models produced. To date, the algorithmic fairness community has had a myopic focus on optimizing and evaluating algorithmic systems at static decision points and mathematical definitions of fairness, neglecting efforts towards critically understanding the data being used prior to modeling. My research aims to support data workers' sociotechnical understanding of data by creating new interfaces and methods to elicit and utilize their prior knowledge and open information (such as census data), as means to discover and augment harmful patterns in data.},
-booktitle = {Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society},
-pages = {957-958},
-numpages = {2},
-location = {<conf-loc>, <city>Montr\'{e}al</city>, <state>QC</state>, <country>Canada</country>, </conf-loc>},
-series = {AIES '23},
-abbr={AIES}
+  author = {Bryson, Kevin},
+  title = {Designing Interfaces to Elicit Data Issues for Data Workers},
+  year = {2023},
+  isbn = {9798400702310},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3600211.3604756},
+  doi = {10.1145/3600211.3604756},
+  abstract = {Goals of objectivity and neutrality drive the usage of algorithmic systems, however most efforts have produced similar or more harm than their human counterparts. Post-hoc analyses of these flawed systems often reveal systemic issues underlying the data and flawed assumptions in preparation stages that affect the models produced. To date, the algorithmic fairness community has had a myopic focus on optimizing and evaluating algorithmic systems at static decision points and mathematical definitions of fairness, neglecting efforts towards critically understanding the data being used prior to modeling. My research aims to support data workers' sociotechnical understanding of data by creating new interfaces and methods to elicit and utilize their prior knowledge and open information (such as census data), as means to discover and augment harmful patterns in data.},
+  booktitle = {Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society},
+  pages = {957-958},
+  numpages = {2},
+  location = {<conf-loc>, <city>Montr\'{e}al</city>, <state>QC</state>, <country>Canada</country>, </conf-loc>},
+  series = {AIES '23},
+  abbr = {AIES}
 },
 @article{bryson2024evaluation,
-  title={Evaluation of Ad Transparency Systems},
-  author={Bryson, Kevin and Borem, Arthur and Moh, Phoebe and Akgul, Omer and Edelson, Laura and Geeng, Chris and Lauinger, Tobias and Mazurek, Michelle L and McCoy, Damon and Ur, Blase},
-  journal={8th Workshop on Technology and Consumer Protection (ConPro '24)
-},
-  abbr={ConPro},
-  year={2024}
+  title = {Evaluation of Ad Transparency Systems},
+  author = {Bryson, Kevin and Borem, Arthur and Moh, Phoebe and Akgul, Omer and Edelson, Laura and Geeng, Chris and Lauinger, Tobias and Mazurek, Michelle L and McCoy, Damon and Ur, Blase},
+  journal = {8th Workshop on Technology and Consumer Protection (ConPro '24)
+             },
+  abbr = {ConPro},
+  year = {2024}
 },
 @inproceedings{sullivan-etal-2022-explaining,
-    abbr = {NAACL},
-    title = "Explaining Why: How Instructions and User Interfaces Impact Annotator Rationales When Labeling Text Data",
-    author = "Sullivan Jr., Jamar  and
-      Brackenbury, Will  and
-      McNutt, Andrew  and
-      Bryson, Kevin  and
-      Byll, Kwam  and
-      Chen, Yuxin  and
-      Littman, Michael  and
-      Tan, Chenhao  and
-      Ur, Blase",
-    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    month = jul,
-    year = "2022",
-    address = "Seattle, United States",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.naacl-main.38",
-    doi = "10.18653/v1/2022.naacl-main.38",
-    pages = "521--531",
-    abstract = "In the context of data labeling, NLP researchers are increasingly interested in having humans select rationales, a subset of input tokens relevant to the chosen label. We conducted a 332-participant online user study to understand how humans select rationales, especially how different instructions and user interface affordances impact the rationales chosen. Participants labeled ten movie reviews as positive or negative, selecting words and phrases supporting their label as rationales. We varied the instructions given, the rationale-selection task, and the user interface. Participants often selected about 12 \% of input tokens as rationales, but selected fewer if unable to drag over multiple tokens at once. Whereas participants were near unanimous in their data labels, they were far less consistent in their rationales. The user interface affordances and task greatly impacted the types of rationales chosen. We also observed large variance across participants.",
+  abbr = {NAACL},
+  title = {Explaining Why: How Instructions and User Interfaces Impact Annotator Rationales When Labeling Text Data},
+  author = {Sullivan Jr., Jamar  and
+            Brackenbury, Will  and
+            McNutt, Andrew  and
+            Bryson, Kevin  and
+            Byll, Kwam  and
+            Chen, Yuxin  and
+            Littman, Michael  and
+            Tan, Chenhao  and
+            Ur, Blase},
+  booktitle = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  month = jul,
+  year = {2022},
+  address = {Seattle, United States},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2022.naacl-main.38},
+  doi = {10.18653/v1/2022.naacl-main.38},
+  pages = {521--531},
+  abstract = {In the context of data labeling, NLP researchers are increasingly interested in having humans select rationales, a subset of input tokens relevant to the chosen label. We conducted a 332-participant online user study to understand how humans select rationales, especially how different instructions and user interface affordances impact the rationales chosen. Participants labeled ten movie reviews as positive or negative, selecting words and phrases supporting their label as rationales. We varied the instructions given, the rationale-selection task, and the user interface. Participants often selected about 12 \% of input tokens as rationales, but selected fewer if unable to drag over multiple tokens at once. Whereas participants were near unanimous in their data labels, they were far less consistent in their rationales. The user interface affordances and task greatly impacted the types of rationales chosen. We also observed large variance across participants.}
 }
